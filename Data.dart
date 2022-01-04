@@ -1,6 +1,7 @@
-
 class Data{
 
+    /// Recieve one parameter the Class of a Firebase
+    /// Not implemented yet but soom i get hands on internet
     Data(){
 
     }
