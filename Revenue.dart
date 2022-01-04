@@ -7,11 +7,16 @@ class Revenue {
     List total = [];
     List loses = [];
     
-    
-    Revenue(List data, List los){
+    /// The year and the mouth to calculate the revenue
+    Revenue(String date){
+        List splited = date.split("-");
         
-        total = data;
-        loses = los;
+        int year = splited[0](int);    //Converting to integer
+        int mouth = splited[1]; //Converting to integer
+        print(splited);
+
+        total = [];
+        loses = [];
     }
 
     getRevenue(){
