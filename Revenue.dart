@@ -19,10 +19,3 @@ class Revenue {
         return revenue;
     }
 }
-
-main(){
-
-    MyMath myMath = new MyMath();
-    print(Revenue([2,2,2,2],[2,2]).getRevenue());
-}
-
