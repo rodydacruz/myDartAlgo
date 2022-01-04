@@ -2,6 +2,6 @@ import "Revenue.dart";
 
 main(){
 
-    print(Revenue([2,2,2,2],[2,2]).getRevenue());
+    print(Revenue("2022-2").getRevenue());
 }
 
