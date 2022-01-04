@@ -11,8 +11,8 @@ class Revenue {
     Revenue(String date){
         List splited = date.split("-");
         
-        int year = splited[0](int);    //Converting to integer
-        int mouth = splited[1]; //Converting to integer
+        //int year = splited[0];    //Converting to integer
+        //int mouth = splited[1]; //Converting to integer
         print(splited);
 
         total = [];
