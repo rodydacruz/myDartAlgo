@@ -14,9 +14,9 @@ class Revenue {
     /// The year and the mouth to calculate the revenue
     Revenue(String date){
         List splited = date.split("-");
-        int year = 2022; //splited[0];    //Converting to integer
-        int mounth = 2; //splited[1]; //Converting to integer
-        print(splited);
+        int year = int.parse(splited[0]);    //Converting to integer
+        int mounth = int.parse(splited[1]); ; //Converting to integer
+        print(year + mounth);
 
         total = data.getMountlySellAmountList(year,mounth);
         bills = data.getBills(year,mounth);

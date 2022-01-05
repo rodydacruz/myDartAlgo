@@ -5,8 +5,10 @@ class Tester{
     Tester(){
 
     }
-
+  
     bool testAll(){
+
+      return true;
 
     }
 }
