@@ -18,5 +18,13 @@ class Data{
 
         return [1,2,3,1];
     }
+    getLoses(int year, int mounth){
+
+        return [1,2,3];
+    }
+    getBills(int year, int mouth){
+
+        return [];
+    }
 
 }
