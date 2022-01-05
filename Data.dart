@@ -16,7 +16,7 @@ class Data{
 
     getMountlySellAmountList(int year, int month){
 
-        return [1,2,3,1]
+        return [1,2,3,1];
     }
 
 }
